@@ -1,0 +1,174 @@
+/* ul {
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    position: fixed;
+    height: 80px;
+    border: solid 2px red;
+}
+
+li {
+    color: red;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-decoration: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+li a:hover {
+    background-color: green
+}
+
+li:active {
+
+    background-color: green;
+} */
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: white
+}
+
+nav {
+    width: 100vw;
+    height: 85px;
+    padding: 25px;
+
+    background-color: black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    text-decoration: none;
+}
+
+li a:link,
+li a:visited,
+li a:active {
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    margin-right: 1cm;
+}
+
+li a:hover {
+    color: green;
+}
+
+#homepagina {
+    text-align: center;
+    padding: 170px;
+
+}
+
+#homepagina h1 {
+    font-size: 3em;
+    letter-spacing: 3px;
+}
+
+#homepagina p {
+    font-size: 1.3em;
+}
+
+#overmij {
+    text-align: center;
+    padding: 100px;
+}
+
+#overmij p {
+    font-size: 150%;
+
+}
+
+#interview {
+
+    text-align: center;
+    padding: 100px;
+    font-size: 150%;
+}
+
+.moeder {
+
+    display: flex;
+    width: 100vw;
+    height: 60vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#gegevens {
+    text-align: center;
+    font-size: 30px;
+    padding: 100px;
+    margin: auto;
+}
+
+#berichten {
+
+    width: 500px;
+    height: 204px;
+}
+
+form {
+    text-align: center;
+    width: auto;
+    background-color: rgb(236, 243, 243);
+    color: black;
+    font-size: 25px;
+}
+
+
+
+#informatiefooter {
+    text-align: center;
+}
+
+.informatiefooter imag #mijnervaring {
+    width: 600px;
+    margin: 1cm auto;
+}
+
+#mijnervaring td {
+    text-align: center;
+    height: 50px;
+    width: 30%;
+}
+
+#me {
+    border-radius: 50%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.8);
+}
+
+#mijnprojecten {
+    text-align: center;
+    color: black;
+    font-size: 200%;
+}
+
+.filefoto p {
+    font-size: 150%;
+    margin: 20px;
+}
